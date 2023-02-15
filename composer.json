@@ -1,5 +1,5 @@
 {
-    "name": "pepemedia/oauth2-wordpress",
+    "name": "krombox/oauth2-wordpress",
     "description": "WordPress OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
     "license": "MIT",
     "authors": [
@@ -7,11 +7,6 @@
             "name": "Roman Kapustian",
             "email": "ikrombox@gmail.com",
             "homepage": "https://github.com/krombox"
-        },
-        {
-            "name": "M.Werner",
-            "email": "wernerpost000@arcor.de",
-            "homepage": "https://github.com/pepemedia"
         }
     ],
     "keywords": [
@@ -21,6 +16,12 @@
         "authorization",
         "authorisation",
         "wordpress"
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pepemedia/oauth2-wordpress"
+        }
     ],
     "require": {
         "league/oauth2-client": "^2.6"
