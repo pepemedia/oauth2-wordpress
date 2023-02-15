@@ -24,6 +24,7 @@
         }
     ],
     "require": {
+        "krombox/oauth2-wordpress": "dev-master",
         "league/oauth2-client": "^2.6"
     },
     "require-dev": {
